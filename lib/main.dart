@@ -79,6 +79,7 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
             _buildButtonRow(['4', '5', '6', '*']),
             _buildButtonRow(['1', '2', '3', '-']),
             _buildButtonRow(['C', '0', '=', '+']),
+            _buildButtonRow(['%', '^2']) // Add a new row with the modulo and squaring buttons
           ],
         ),
       ),
